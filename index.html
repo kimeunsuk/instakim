@@ -4,40 +4,67 @@
   <head>
     <meta charset="utf-8" />
     <title>Login | Instajeju</title>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel=stylesheet />
   </head>
 
-  <body>
+  <!DOCTYPE html>
+  <html lang="en">
 
-    <main class="login">
-      <div class="login__column">
-        <img src="images/phoneImage.png" />
-      </div>
-      <div class="login__column">
-        <div class="login__box">
-          <img src="images/logoLogin.png" class="login__logo" />
-          <form action="feed.html" method="get">
-            <input type="email" name="user" placeholder="Username" required />
-            <input type="password" name="pass" placeholder="Password" required />
-            <input type="submit" value="Log in" />
-          </form>
-          <span class="login__divider">or</span>
-          <a href="#" class="login__fb-link">Log in with Facebook</a>
-          <a href="#" class="login__link login__link--small">Forgot password?</a>
+    <head>
+      <meta charset="utf-8" />
+      <title>Login | Instajeju</title>
+    </head>
+
+    <body>
+
+      <main class="login">
+        <div class="login__column">
+          <img src="images/phoneImage.png" />
         </div>
-        <div class="login__box">
-          <span class="login__text">Don't have an account?</span>
-          <a href="#" class="login__link login__link--blue">Sign up</a>
-        </div>
-        <div class="login__box login__box--transparent">
-          <span class="login__text">Get the app.</span>
-          <div class="login__appstores">
-            <img src="images/ios.png" class="login__appstore" />
-            <img src="images/android.png" class="login__appstore" />
+        <div class="login__column">
+          <div class="login__box">
+            <img src="images/logoLogin.png" class="login__logo" />
+            <form action="feed.html" method="get">
+              <input type="text" name="user" placeholder="Username" required />
+              <input type="password" name="pass" placeholder="Password" required />
+              <input type="submit" value="Log in" />
+            </form>
+            <span class="login__divider">or</span>
+            <i class="fa fa-facebook-official" aria-hidden="true"></i><a href="#" class="login__fb-link">Log in with Facebook</a>
+            <a href="#" class="login__link login__link--small">Forgot password?</a>
+          </div>
+          <div class="login__box">
+            <span class="login__text">Don't have an account?</span>
+            <a href="#" class="login__link login__link--blue">Sign up</a>
+          </div>
+          <div class="login__box login__box--transparent">
+            <span class="login__text">Get the app.</span>
+            <div class="login__appstores">
+              <img src="images/ios.png" class="login__appstore" />
+              <img src="images/android.png" class="login__appstore" />
+            </div>
           </div>
         </div>
-      </div>
-    </main>
+      </main>
 
-  </body>
+      <footer class="footer">
+        <nav class="footer__nav">
+          <ul class="footer__list">
+            <li class="footer__list-item"><a href="" class="footer__link"></a></li>
+            <li class="footer__list-item"><a href="" class="footer__link"></a></li>
+            <li class="footer__list-item"><a href="" class="footer__link"></a></li>
+            <li class="footer__list-item"><a href="" class="footer__link"></a></li>
+            <li class="footer__list-item"><a href="" class="footer__link"></a></li>
+            <li class="footer__list-item"><a href="" class="footer__link"></a></li>
+            <li class="footer__list-item"><a href="" class="footer__link"></a></li>
+            <li class="footer__list-item"><a href="" class="footer__link"></a></li>
+            <li class="footer__list-item"><a href="" class="footer__link"></a></li>
+            <li class="footer__list-item"><a href="" class="footer__link"></a></li>
+          </ul>
+        </nav>
+        <span class="footer__copy">&copy;2017</span>
+      </footer>
 
-</html>
+    </body>
+
+  </html>
