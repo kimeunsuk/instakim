@@ -37,6 +37,10 @@
   margin-bottom: 5px;
 }
 
+.users__name .users__username i {
+  color: #3897f0;
+}
+
 .users__name .users__full-name {
   color: #999;
 }
@@ -59,15 +63,4 @@
 
 .users__user button:focus {
   outline: none;
-}
-
-.users__user .users__left img {
-  width: 56px;
-  height: 56px;
-  border-radius: 50%;
-}
-
-.users__name span{
-  display: block;
-  align-items: flex-start;
 }
