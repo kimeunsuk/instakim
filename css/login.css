@@ -1,0 +1,90 @@
+.login {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+.login .login__column:first-child {
+  width: 50%;
+}
+
+.login .login__column {
+  width: 45%;
+}
+
+.login .login__box {
+  background-color: white;
+  border: 1px solid #e6e6e6;
+  margin-bottom: 10px;
+  text-align: center;
+  padding: 30px 40px;
+}
+
+.login .login__box--transparent {
+  background-color: transparent;
+  border: none;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.login .login__box--transparent .login__appstores {
+  margin-top: 20px;
+}
+
+.login .login__box--transparent .login__appstore {
+  height: 36px;
+}
+
+.login .login__box form input {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px 5px;
+  border: 0;
+  border: 1px solid #efefef;
+  border-radius: 3px;
+  font-size: 14px;
+}
+
+.login .login__box form input:focus {
+  outline: none;
+  border: 1px solid #b2b2b2;
+}
+
+.login .login__box form input[type="submit"] {
+  margin-top: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background: #3897f0;
+  color: white;
+  border: 0;
+}
+
+.login .login__box .login__divider {
+  text-transform: uppercase;
+  display: block;
+  font-weight: 600;
+  margin: 20px 0;
+  color: #999;
+}
+
+.login .login__fb-link {
+  display: block;
+  margin-bottom: 20px;
+  color: #385185;
+}
+
+.login .login__link--small {
+  font-size: 13px;
+  color: #385185;
+}
+
+.login .login__link--blue {
+  color: #3897f0;
+}

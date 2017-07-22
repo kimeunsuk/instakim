@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSS</title>
+    <style>
+      html {
+        height: 100%;
+      }
+      body {
+        background-color: red;
+        height: 500%;
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+        flex-wrap: wrap;
+      }
+      .box {
+        background-color: yellow;
+        height: 300px;
+        width: 300px;
+        margin-bottom: 20px;
+        box-sizing: border-box;
+        display: flex;
+        align-items: center;
+        color: white;
+        justify-content: center;
+        position: relative;
+      }
+      .child {
+        background-color: green;
+        width: 20%;
+        height: 20%;
+        border: 2px dotted blue;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: 50px;
+        left: 10px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="box">
+      <div class="child">1</div>
+    </div>
+  </body>
+
+</html>
