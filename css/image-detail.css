@@ -1,0 +1,15 @@
+.photo--detail {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 900px;
+}
+
+.photo--detail .photo__image {
+  min-height: 50%;
+  width: 60%;
+}
+
+.photo--detail .photo__info {
+  width: 40%;
+}
