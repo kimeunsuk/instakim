@@ -38,7 +38,7 @@ function sub(one, two){
   return one - two;
 }
 
-$(document).ready(function(){
+/*$(document).ready(function(){
     console.log("i'm loaded")
 });
 
@@ -54,4 +54,19 @@ $(document).ready(function() {
   $heart.click(function () {
     $(this).toggleClass("fa-heart-o heart-pumping fa-heart");
   });
+});*/
+
+$(document).ready(function() {
+  var $heart = $(".heart"),
+    $ellipsis = $(".fa-ellipsis-h"),
+    $overlay = $(".overlay");
+  $heart.click(function() {
+    $(this).toggleClass("fa-heart-o heart-pumping fa-heart");
+  });
+
+  $ellipsis.click(function() {
+    $overlay.fadeIn(1000);
+  });
+
+  //fadeOut
 });
