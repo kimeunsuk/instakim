@@ -37,3 +37,21 @@ function add(one, two){
 function sub(one, two){
   return one - two;
 }
+
+$(document).ready(function(){
+    console.log("i'm loaded")
+});
+
+$(document).ready(function() {
+  var $heart = $(".heart");
+  $heart.click(function () {
+    console.log("i got clicked");
+  });
+});
+
+$(document).ready(function() {
+  var $heart = $(".heart");
+  $heart.click(function () {
+    $(this).toggleClass("fa-heart-o heart-pumping fa-heart");
+  });
+});
